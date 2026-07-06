@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <main className="min-h-screen bg-black flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-yellow-400">SupremeFX Academy</h1>
-    </main>
-  );
-}
+import AppRouter from "./routes/AppRouter";
 
-export default App;
+export default function App() {
+  return <AppRouter />;
+}
