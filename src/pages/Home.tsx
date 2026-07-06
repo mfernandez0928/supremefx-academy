@@ -4,6 +4,8 @@ import CoreTeam from "../components/home/CoreTeam";
 import Programs from "../components/home/Programs";
 import WhyChoose from "../components/home/WhyChoose";
 import Testimonials from "../components/home/Testimonials";
+import FAQ from "../components/home/FAQ";
+import CTA from "../components/home/CTA";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Programs />
       <WhyChoose />
       <Testimonials />
+      <FAQ />
+      <CTA />
     </>
   );
 }
